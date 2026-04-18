@@ -1,0 +1,41 @@
+==================== 2026-04-11T11:29:07.289077Z | 019d7c4d-80d5-7a23-a910-504f1b3f9bad ====================
+11:29:07.289221 [info ]: Installing dbt project and profile setup
+11:29:07.316934 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+11:29:07.324881 [info ]: Success Project created successfully!
+11:29:07.325389 [info ]: Info Project name: jaffle_shop
+11:29:07.325760 [info ]: Info Project directory: jaffle_shop
+11:29:07.326182 [info ]: Info Setting up your profile...
+11:29:07.327050 [info ]: Loading ~/.dbt/profiles.yml
+11:29:07.329078 [info ]: Profile 'jaffle_shop' already exists. You can choose how to proceed.
+11:29:29.871800 [info ]: Info Creating new profile...
+11:29:32.185983 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+11:31:07.461578 [info ]: Info Backup created at C:\Users\003KO0744\.dbt\profiles.yml.bkp
+11:31:07.463468 [info ]: Success Profile written to C:\Users\003KO0744\.dbt\profiles.yml
+11:31:07.464325 [info ]: Validating profile inputs, adapters, and connection
+
+11:31:07.465041 [info ]: dbt-fusion 2.0.0-preview.164
+11:31:07.466498 [info ]: Started loading project
+11:31:07.468619 [info ]: Loading ~/.dbt/profiles.yml
+11:31:07.494723 [info ]: Finished loading project [  0.03s]
+11:31:07.496109 [info ]: Started debugging
+11:31:07.496734 [info ]: Debugging profile: dev
+11:31:07.497510 [info ]: Debugging dbt version: 2.0.0-preview.164
+11:31:07.498401 [info ]: Debugging platform: windows x86_64 (windows)
+11:31:07.499288 [info ]: Debugging adapter type: snowflake (remote)
+11:31:07.499872 [info ]: Debugging dependencies:
+  git: ERROR
+11:31:07.500250 [info ]: Debugging connection:
+  "account": "UTGCCQR-TI32902",
+  "user": "abhisheksnow",
+  "database": "raw",
+  "warehouse": "transforming",
+  "schema": "jaffle_shop",
+  "role": "ACCOUNTADMIN"
+11:31:08.187263 [debug]: Query executed on node unknown:
+select 1 as id
+11:31:08.187412 [info ]: Debugging connection test: OK
+11:31:08.188533 [info ]: Finished debugging [  0.69s]
+11:31:09.051045 [info ]: New version available 2.0.0-preview.170 (run `dbt system update`)
+11:31:09.594549 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [2m 2s]
